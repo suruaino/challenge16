@@ -27,11 +27,40 @@ font-family: var(--font-family);
     max-width: 92%;
     border-radius: 20px 20px 60px 20px;
 }
-aside{
-    /* max-width: 95%; */
+
+.inputs-bx input{
+    border: 1px solid gray;
 }
-form button{
-    background-color: blueviolet;
-    border-radius: 50%;
-    
+.inputs-bx label{
+    color: gray;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+main{
+    font-size: 2.75rem;
+    font-weight: 800;
+
+}
+
+
+@media (min-width: 768px) {
+    main{
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    .main-container{
+        width: 60%;
+        max-width: 70%;
+        height: 70%;
+        border-radius: 20px 20px 15rem 20px;
+    }
+    .inputs-bx label{
+        font-size: 1rem;
+
+    }
+    .inputs-bx input{
+        font-size: 2rem;
+    }
 }

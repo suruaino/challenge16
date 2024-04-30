@@ -11,7 +11,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Age calculator app</title>
   <link rel="stylesheet" href="styles.css">
@@ -28,39 +28,45 @@
   </style>
 </head>
 
-<body class="bg-gray-100 flex flex-col justify-center items-center">
-  <div class="main-container bg-white  mt-16 flex flex-col ">
-    <form class="px-4 py-8">
-      <div class="inputs-bx  flex max-w-full gap-3">
-        <div class="day-bx w-full flex flex-col gap-1">
-          <label for="">Day</label>
-          <input type="number" placeholder="DD" class="w-full h-10 px-2 border rounded-md">
+<body class="bg-gray-100 md:h-screen flex flex-col justify-center items-center">
+  <div class="main-container bg-white px-6 md:px-10 mt-20 flex flex-col">
+    <form class="py-11 md:py-14 pb-16 border-b-2 relative">
+      <div class="inputs-bx flex max-w-full md:justify-start gap-4">
+        <div class="day-bx w-full md:w-40 flex flex-col gap-1">
+          <label for="day">Day</label>
+          <input id="day" type="number" placeholder="DD" class="w-full h-12 md:h-20 px-2 md:px-6 border rounded-md">
         </div>
-        <div class="month-bx w-full flex flex-col gap-1">
-          <label for="">Month</label>
-          <input type="number" placeholder="MM" class="w-full h-10 px-2 border rounded-md">
+        <div class="month-bx w-full md:w-40 flex flex-col gap-1">
+          <label for="month">Month</label>
+          <input id="month" type="number" placeholder="MM" class="w-full h-12 md:h-20 px-2 md:px-6 border rounded-md">
         </div>
-        <div class="day-bx w-full flex flex-col gap-1">
-          <label for="">Year</label>
-          <input type="number" placeholder="YYYY" class="w-full h-10 px-2 border rounded-md">
+        <div class="day-bx w-full md:w-40 flex flex-col gap-1">
+          <label for="year">Year</label>
+          <input id="year" type="number" placeholder="YYYY" class="w-full h-12 md:h-20 px-2 md:px-6 border rounded-md">
         </div>
       </div>
-      <button class="p-3 flex justify-center items-center">
-        <img src="assets/icon-arrow.svg" alt="iImage" class="w-6 h-6">
+      <button id="calc-btn" class="bg-violet-500 p-5 flex justify-center items-center absolute left-1/2 md:left-auto -translate-x-1/2 md:-translate-x-0 -bottom-8 md:-bottom-11 md:right-0  rounded-full">
+        <img src="assets/icon-arrow.svg" alt="iImage" class="w-6 md:w-14 h-6 md:h-14">
       </button>
     </form>
-    <main></main>
+
+
+    <main class=" font-extrabold inputs-bx py-14 flex flex-col max-w-full">
+      <div class="years"><i><span class="text-violet-500 mr-2">--</span>years</i></div>
+      <div class="years"><i><span class="text-violet-500 mr-2">--</span>months</i></div>
+      <div class="years"><i><span class="text-violet-500 mr-2">--</span>days</i></div>
+    </main>
 
   </div>
 
-  -- years
-  -- months
-  -- days
-
-  <div class="attribution">
+  <div class="attribution mt-6">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
+
+  <script src="script.js"></script>
 </body>
 
 </html>
