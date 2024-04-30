@@ -29,7 +29,10 @@ font-family: var(--font-family);
 }
 
 .inputs-bx input{
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+}
+.inputs-bx input:hover{
+    border: 1px solid rgba(128, 128, 128, 0.651);
 }
 .inputs-bx label{
     color: gray;
@@ -37,6 +40,10 @@ font-family: var(--font-family);
     font-size: .8rem;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+form button:active{
+    background-color: var(--Off-black);
 }
 main{
     font-size: 2.75rem;
