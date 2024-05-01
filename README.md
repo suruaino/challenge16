@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -9,20 +9,21 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What I learned](#what-I-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ### Screenshots
+
 - [Mobile](assets/images/agecalculator-mobile.png)
 - [Desktop](assets/images/agecalculator-desktop.png)
 
 ### Links
 
-- Solution URL: (https://github.com/suruaino/challenge15.git)
-- Live Site URL: (https://suru-multi-step-form.netlify.app/)
+- Solution URL: (https://github.com/suruaino/challenge16.git)
+- Live Site URL: (https://age-calculator-suru.netlify.app/)
 
 ## My process
 
@@ -36,14 +37,13 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 - Tailwindcss
 - Vanilla Js
 
-
 ### What I learned
 
-I improved my skills with css flex and grid property and the use of tailwindcss while also putting my js skills to more practice. 
+I improved my skills with css flex and grid property and the use of tailwindcss while also putting my js skills to more practice.
 
 ### Continued development
 
-I will want to learn and know more about Javascript DOM manipulation.
+I will want to learn and know more about Javascript DOM manipulation, event listeners and conditionals.
 
 ### Useful resources
 
@@ -58,8 +58,6 @@ I will want to learn and know more about Javascript DOM manipulation.
 - Twitter - [@suruaino](https://www.twitter.com/suruaino)
 - Github - [@suruaino](https://www.github.com/suruaino)
 
-
 ## Acknowledgments
 
 I will want to use this opportunity to thank my lovely sister Ojeifo Loveth and her husband Obende Daniel also my 100daysofcode team for their support and encouragement. They kept pushing me right from the day I started this journey till date. They never got tired. I want to say that I really appreciate.
-
